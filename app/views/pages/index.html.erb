@@ -1,0 +1,202 @@
+<%= provide(:title, "Kohl Kohlbrenner - Portfolio") %>
+
+<!-- use "theme-invert" class on bright backgrounds, also try "text-shadows" class -->
+<body class="theme-invert">
+
+<nav class="mainmenu">
+    <div class="container">
+        <div class="dropdown">
+            <button type="button" class="navbar-toggle" data-toggle="dropdown"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            <!-- <a data-toggle="dropdown" href="#">Dropdown trigger</a> -->
+            <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                <li><%= link_to "Hello", "#head", class: "active" %></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#themes">Portfolio</a></li>
+                <li><a href="#contact">Get in touch</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- Main (Home) section -->
+<section class="section" id="head">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 text-center greeting">   
+
+                <!-- Site Title, your name, HELLO msg, etc. -->
+                <h1 class="title">Kohl</h1>
+                <h2 class="subtitle">Kohlbrenner</h2>
+
+                <!-- Short introductory (optional) -->
+                <h3 class="tagline">
+                    Hi, I'm glad to see you!<br>
+                    Take a look around, let me introduce myself, and send me an email or request on social media!
+                </h3>
+    
+            </div> <!-- /col -->
+        </div> <!-- /row -->
+    
+    </div>
+</section>
+
+<!-- Second (About) section -->
+<section class="section" id="about">
+    <div class="container">
+    
+        <h2 class="text-center title">About me</h2>
+        <div class="row">
+            <div class="col-sm-4 col-sm-offset-2">    
+                <h5><strong>About Me<br></strong></h5>
+                <p>
+                    I'm Kohl Kohlbrenner here in the digital flesh! Technically its a nickname, but everybody knows me by this alliterative appellation. I currently live in Summit, New Jersey which is about an hour outside of New York City. In fact, New Jersey has been my home for almost my entire life (don't hold that against me!). I grew up in a small down just outside of Philadelphia, went to college in PA for two years before coming back to the Garden State and graduating from Rutgers University. I studied Economics, was involved heavily in extra curriculars, and joined Theta Chi Fraternity in Fall 2011. 
+                </p>
+                <p>
+                    As a student, heavily influenced by my family's participation, I was really interested in a career in financial services. I loved and still love the capital markets. It's fast-paced, exciting, and requires luck, timing, and quick thinking. I'm a very competitive person, always have been since growing up playing sports. I always wanted to be the center of attention, craving the responsibility of pitcher, quarterback, point guard, and striker. I loved team sports and as a result have always enjoyed working with others. I learned how to understand people, communicate, and collaborate productively. I've learned that I am a very selfless person and always willing to help people, admittedly sometimes to a fault.
+                </p>
+                <p>
+                    Out of college, I joined a privately owned Financial & Tax Planning firm located in New York City. 
+                    I put everything into being the best employee. I asked questions, got to know everyone, and consumed books authored by the titans of Wall Street, hoping to find the breadcrumbs in their stories that would propel me into their same class. I wanted badly for me to love my job, but it didn't turn out that way. While I still enjoy finance, it is something I do not want to do for the rest of my life. 
+                </p>
+                <p>
+                    I first discovered programming through a tweet by a guy named Barack Obama. He was promoting the <%= link_to "hour of code", "http://www.code.org" %> initiative and after following the link to the website, I was really unimpressed. I believe I was on the train on my way back home, and decided to finish a book I was reading instead. Not to be deterred, I kept seeing people on my timeline promoting the initiative, so I decided to give it another shot! What really hooked me was <%= link_to "CodeCademy", "http://www.codecademy.com" %>. I was suddenly learning real programming fundamentals and seeing my code come to life was exciting! I became totally engrossed in learning this new skill. It was thrilling, challenging, and I knew could lead to a very lucrative career. 
+                </p>
+                <p>
+                    I continued teaching myself for a few months until I had to put it on hold because of work related responsibilities. When I picked it back up, I knew it was something I wanted to do as a career. I've become so fascinated, excited, and more aware of the capabilities technology has on our lives. The applications of use we have seen thus far has only scratched the surface. Technology is the catalyst of all of our revolutionary ideas and it will only become more important to society in the future. 
+                </p>
+                <p>
+                    So, I eventually quit my job after accepting an invitation to attend a six-week development/product management bootcamp. It was headed by HappyFunCorp, a software engineering firm located in Brooklyn.
+                    It was a life-changing experience. It exponentially increased my knowledge of particular technologies and taught me how much I can learn in a very short amount of time when I am unapologetically passionate about a certain topic. After completion of the bootcamp, my goal was to take a few months off before looking for a full-time development job. A lot was promised by the instructors of the program and I assumed they would help with job placement. Unfortunately, that wasn't true and it's been a journey in itself trying to find a job as a junior web developer. However, the free-time has also really helped me develop a valuable repertoire of marketable skills.
+                </p>
+                <p>
+                    I have experience in HTML,CSS,Sass, Ruby, Ruby on Rails, Javascript, jQuery, and I am currently learning PHP. Some of the resources I have used include:
+                        <ul>
+                            <li><%= link_to "RubyMonk", "http://www.rubymonk.com" %></li>
+                            <li><%= link_to "CodeCademy", "http://www.codecademy.com" %></li>
+                            <li><%= link_to "CodeSchool", "http://www.codecademy.com" %></li>
+                            <li><%= link_to "GoRails", "http://www.gorails.com" %></li>
+                            <li><%= link_to "W3Schools", "http://www.w3schools.com" %></li>
+                        </ul>
+
+                </p>    
+            </div>
+            <div class="col-sm-4">
+                <h5><strong>Immediate Career Goals<br></strong></h5>    
+                <p>
+                    At the end of the day, I want to be happy. I want to feel like I am making a difference, an impact on peoples lives. I want to learn something new everyday and teach somebody else something new. I am a very positive person. I am strong-willed, determined, and curious. I'm not always the smartest person in the room, but I use that to my advantage. If you ask me a question I don't have the answer to, you can bet I'll have one for you by days end.
+                </p>
+                <p>
+                    I want to find a company with people who share my same passion to change the world, even if its only a few hundred thousand people. Ideally, my goal is to become a junior web developer. I'd also like to have a client-facing influence. I just love talking and interacting with people. I want to help them solve their problems and advocate on their behalf.
+                </p>
+                <p>
+                    If you are currently looking for someone to fill a position on your team, please get in touch!
+
+                </p>    
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Third (Works) section -->
+<section class="section" id="themes">
+    <div class="container">
+    
+        <h2 class="text-center title">Portfolio</h2>
+
+        <div class="row">
+            <div class="col-sm-4 col-sm-offset-2">
+                <div class="thumbnail">
+                    <%= image_tag('sshot1.jpg') %>
+                    <div class="caption">
+                        <h3>#Pinning</h3>
+                        <p>My take on Pinterest</p>
+                        <p><a href="#" class="btn btn-default" role="button">Button</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <%= image_tag('sshot4.jpg') %>
+
+
+                    <div class="caption">
+                        <h3>Twitter clone</h3>
+                        <p>A clone of Twitter</p>
+                        <p><a href="#" class="btn btn-default" role="button">Button</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-sm-offset-2">
+                <div class="thumbnail">
+                    <%= image_tag('sshot5.jpg') %>
+
+                    <div class="caption">
+                        <h3>HFC Forum</h3>
+                        <p>A social site built during my bootcamp that is for the alumni</p>
+                        <p><a href="#" class="btn btn-default" role="button">Button</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <%= image_tag('sshot3.jpg') %>
+
+                    <div class="caption">
+                        <h3>Daft Magazine</h3>
+                        <p>Another site built during my bootcamp. A satirical magazine site.</p>
+                        <p><a href="#" class="btn btn-default" role="button">Button</a></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <p class="lead text-center">
+            Placeholder images found at <%= link_to "Unsplash", "http://www.unsplash.com" %>
+        </p>
+    </div>
+</section>
+
+<!-- Fourth (Contact) section -->
+<section class="section" id="contact">
+    <div class="container">
+    
+        <h2 class="text-center title">Get in touch</h2>
+
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 text-center">
+                <a class="twitter-timeline" href="https://twitter.com/k_kohlbrenner" width="300"
+  height="500" data-widget-id="594691510953709568">Tweets by @k_kohlbrenner</a> 
+                <ul class="list-inline list-social">
+                    <li><a href="https://twitter.com/k_kohlbrenner" class="btn btn-link"><i class="fa fa-twitter fa-fw"></i> Twitter</a></li>
+                    <li><a href="https://github.com/kohl00" class="btn btn-link"><i class="fa fa-github fa-fw"></i> Github</a></li>
+                    <li><a href="https://www.linkedin.com/pub/kohl-kohlbrenner/74/123/298" class="btn btn-link"><i class="fa fa-linkedin fa-fw"></i> LinkedIn</a></li>
+                    <li><a href="https://medium.com/@kohlkohlbrenner" class="btn btn-link"><i class="fa fa-medium fa-fw"></i> Medium</a></li>
+
+                </ul>
+            </div>
+            <div class=" col-sm-12 col-md-6 col-md-offset-3 contact_form">
+                <%= form_tag(contact_mailer_path, remote: true, role: "form", id: "contact_form") do %>
+                    <div class="row">
+                        <div class="form-group col-md-4 col-md-offset-2 col-lg-4">
+                            <%= text_field_tag :name,'', placeholder: "Name", class: "form-control" %>
+                        </div>
+                        <div class="form-group col-lg-4">
+                            <%= email_field :email ,'', placeholder: "Email", class: "form-control" %>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="form-group col-lg-12">
+                            <%= text_area_tag :content,"Leave a note. At a loss for words? Start by telling me about yourself!",class: "form-control" %>
+                        </div>
+                        <div class="form-group col-lg-12">
+                            <%= button_tag "Send!", class: "btn btn-default", data: { disable_with: "<i class='fa fa-spinner'></i>" } %>
+                        </div>
+                    </div>
+                <% end %>
+            </div>
+        </div>
+
+    </div>
+</section>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
