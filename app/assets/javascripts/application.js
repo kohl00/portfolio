@@ -17,3 +17,4 @@
 //= require turbolinks
 //= require_tree .
 // global. currently active menu item 
+

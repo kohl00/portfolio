@@ -26,7 +26,7 @@ jQuery(document).ready(function($) {
 	$("a", '.mainmenu').click(function() 
 	{
 		//dynamically change background
-		var $bgs =['beach.jpeg','coffee.jpeg','running_photo.jpg'];
+		var $bgs =['beach.jpeg','coffee.jpeg'];
 		var $curbg;
 		var $html = $('html');
 		var $cur = _.random(0,$bgs.length-1);
@@ -41,7 +41,7 @@ jQuery(document).ready(function($) {
 		currentBg($bgs);
 
 		//show hide fadein sections
-		
+
 		if( ! $(this).hasClass('active') ) { 
 			current_item = this;
 			// close all visible divs with the class of .section
