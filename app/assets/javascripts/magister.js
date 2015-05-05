@@ -25,21 +25,7 @@ jQuery(document).ready(function($) {
 	// Switch section
 	$("a", '.mainmenu').click(function() 
 	{
-		//dynamically change background
-		var $bgs =['beach.jpeg','coffee.jpeg'];
-		var $curbg;
-		var $html = $('html');
-		var $cur = _.random(0,$bgs.length-1);
 		
-		function currentBg(){
-
-		    $curbg = $bgs[$cur];
-			 
-			return $html.css('background-image', 'url("/assets/'+ $curbg + '")');
-		};
-
-		currentBg($bgs);
-
 		//show hide fadein sections
 
 		if( ! $(this).hasClass('active') ) { 
