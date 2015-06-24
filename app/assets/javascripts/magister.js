@@ -17,13 +17,13 @@ jQuery(document).ready(function($) {
 	//email form
 	$('.contact_form').on('click','#reshow_form', function(){
 		$(this).add('h1').remove();
-		$('.contact_form').find('#contact_form').show();
+		$('.contact_form').find('#contact_form').fadeIn(section_show_time);
 		$('textarea').val('');
 
 	});
 
 	// Switch section
-	$("a", '.mainmenu').click(function() 
+	$("a", '.mainmenu').on('click',function() 
 	{
 		
 		//show hide fadein sections
@@ -45,6 +45,6 @@ jQuery(document).ready(function($) {
 	//Date Footer
 	var date = new Date();
 	var $dateNode = $("<p>").addClass("date");
-	$("section").find(".container").after($dateNode.text("Built by Kohl in " + date.getFullYear() + "!"));
+	$("section").find(".container").after($dateNode.text("Built with <3 by Kohl in " + date.getFullYear() + "!"));
 
 });
