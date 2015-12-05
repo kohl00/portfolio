@@ -32,8 +32,8 @@
 
                 <!-- Short introductory (optional) -->
                 <h3 class="tagline">
-                    Hi there!<br>
-                    I'm glad to you're here! Take a look around and send me an email or request on social media!
+                    Fancy seeing you here!<br>
+                    You're officially awesome. Now head on over and connect with me!
                 </h3>
 
             </div> <!-- /col -->
@@ -162,16 +162,22 @@
 
         <div class="row">
             <div class="col-sm-8 col-sm-offset-2 text-center">
-                <a class="twitter-timeline" href="https://twitter.com/k_kohlbrenner" width="300"
-  height="500" data-widget-id="594691510953709568">Tweets by @k_kohlbrenner</a>
+                <ul class="list-inline">
+                  <!--<ul class="list-inline list-social"> -->
+                    <li>
+                      <a href="https://twitter.com/k_kohlbrenner" class="btn btn-link"><i class="fa fa-twitter"></i>Twitter </a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/kohl00" class="btn btn-link"><%= icon('github', 'Github') %> </a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/pub/kohl-kohlbrenner/74/123/298" class="btn btn-link"><i class="fa fa-linkedin"></i>LinkedIn </a>
+                    </li>
+                    <li>
+                      <a href="https://medium.com/@kohlkohlbrenner" class="btn btn-link"><%= icon('medium', 'Medium') %> </a>
+                    </li>
 
-                <ul class="list-inline list-social">
-                    <li><a href="https://twitter.com/k_kohlbrenner" class="btn btn-link"><%= icon('twitter','Twitter') %> </a></li>
-                    <li><a href="https://github.com/kohl00" class="btn btn-link"><%= icon('github', 'Github') %> </a></li>
-                    <li><a href="https://www.linkedin.com/pub/kohl-kohlbrenner/74/123/298" class="btn btn-link"><%= icon('linkedin', 'Linkedin') %> </a></li>
-                    <li><a href="https://medium.com/@kohlkohlbrenner" class="btn btn-link"><%= icon('medium', 'Medium') %> </a></li>
-
-                </ul>
+              </ul>
             </div>
             <div class=" col-sm-12 col-md-6 col-md-offset-3 contact_form">
                 <%= form_tag(contact_mailer_path, remote: true, role: "form", id: "contact_form") do %>
@@ -184,10 +190,10 @@
                         </div>
                         <div class="clearfix"></div>
                         <div class="form-group col-lg-12">
-                            <%= text_area_tag :content,"Leave a note. At a loss for words? Start by telling me about yourself!",class: "form-control" %>
+                            <%= text_area_tag :content,"Dance like nobody's watching.",class: "form-control" %>
                         </div>
                         <div class="form-group col-lg-12">
-                            <%= button_tag "Send!", class: "btn btn-default", data: { disable_with: "<i class='fa fa-spinner'></i>" } %>
+                            <%= button_tag "No turning back!", class: "btn btn-default", data: { disable_with: "<i class='fa fa-spinner'></i>" } %>
                         </div>
                     </div>
                 <% end %>
